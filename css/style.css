@@ -428,3 +428,25 @@ h2 {
   color: #FFFFFF;
 }
 
+/* tur */
+
+.section-tur {
+  width: 1170px;
+  height: 274px;
+  border-radius: 15px;
+  background-color: #E9E9E9;
+}
+
+.section-tur-form {
+  width: 1080px;
+  height: 106px;
+  margin-top: 19px;
+  margin-left: 45px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
