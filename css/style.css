@@ -437,6 +437,10 @@ h2 {
   background-color: #E9E9E9;
 }
 
+.tur-heading{
+  padding-top: 38px;
+}
+
 .section-tur-form {
   width: 1080px;
   height: 106px;
@@ -446,7 +450,14 @@ h2 {
   border-radius: 15px;
 }
 
-.form {
-  display: flex;
-  align-items: center;
+.section-tur-form-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.section-tur-form-item {
+  display: inline-block;
+}
+
+.select-form {
+  border: none;
 }
