@@ -453,26 +453,44 @@
               </h2>
               <div class="section-tur-form">
                 <form action="https://jsonplaceholder.typicode.com/posts"  method="POST" class="form">
-                  <div class="section-tur-form-item">
-                    <p>Город вылета</p>
-                    <select name="city" id="" class="select-form">
+                  <div class="section-tur-form-item" style="padding-left: 28px;">
+                    <p class="p-form">Город вылета</p>
+                    <select name="city" id="city" class="noborder-form">
                       <option value="minsk">Минск</option>
                       <option selected value="stpitersburg">Санкт-Питербург</option>
                       <option value="london">Лондон</option>
-                      <img src="img/form_line.svg" alt="line">
                     </select>
                   </div>
+                  <img src="img/form_line.svg" alt="line">
                     <div class="section-tur-form-item">
-                      <p>Страна</p>
-                      <select name="country" id="" class="select-form">
+                      <p class="p-form">Страна</p>
+                      <select name="country" id="country" class="noborder-form">
                         <option value="Canada">Канада</option>
                         <option selected value="Turkey">Турция</option>
                         <option value="Belarus">Беларусь</option>
                       </select>
                   </div>
+                  <img src="img/form_line.svg" alt="line">
+                  <div class="section-tur-form-item">
+                    <p class="p-form">Дата прибытия</p>
+                    <input type="date" name="calendar" class="noborder-form">
+                    <img src="/img/cal.svg" alt="calendar" style="padding-left: 27px;">
+                  </div>
+                  <img src="img/form_line.svg" alt="line">
+                  <div class="section-tur-form-item">
+                    <p class="p-form">Ночей</p>
+                    <input type="number" min="1" value="" name="nights" class="noborder-form num-form">
+                  </div>
+                  <img src="img/form_line.svg" alt="line">
+                  <div class="section-tur-form-item">
+                    <p class="p-form">Туристы</p>
+                    <input required type="number" min="1" value="" name="turists" class="noborder-form num-form">
+                  </div>
+                  <img src="img/form_line.svg" alt="line" style="padding-left: 10px;">
+                  <div style="display: inline-block;">
+                    <button type="submit" class="btn submit-btn">Найти</button>
+                  </div>
                 </form>
-
-
               </div>
             </section>
         </div>
