@@ -456,6 +456,8 @@ h2 {
 
 .section-tur-form-item {
   display: inline-block;
+  padding-top: 31px;
+  padding-left: 28px;
 }
 
 .select-form {
